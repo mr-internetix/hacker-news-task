@@ -34,7 +34,6 @@ function Login() {
     <div className="d-flex align-items-center justify-content-center flex-column vh-100  vw-100 bg-dark">
       {show ?  <Alert variant="danger" onClose={() => setShow(false)} className="w-50"dismissible>
         <Alert.Heading>Username Or Password is Incorrect </Alert.Heading>
-        x
       </Alert> : '' }
       
       <Container className="d-flex align-items-center justify-content-center flex-column">
